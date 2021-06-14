@@ -36,6 +36,7 @@ interface ScrollBoxOptions {
     noTicker?: boolean
     ticker?: PIXI.Ticker
     divWheel?: HTMLElement
+    interaction?: PIXI.InteractionManager
 }
 
 /**
